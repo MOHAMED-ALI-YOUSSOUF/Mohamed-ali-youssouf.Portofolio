@@ -10,11 +10,11 @@
 }
 :root{
     --bg-color:#081b29;
-    --bg-color:#464e53;
+    /* --bg-color:#464e53; */
     --second-bg-color:#112e42;
     --text-color:#ededed;
     --main-color:#00abf0;
-    --main-color:#f07400;
+    /* --main-color:#f8001d; */
 }
 html{
     font-size: 62.5%;
@@ -930,10 +930,11 @@ footer .animate.scroll{
         -ms-transform: translateX(0);
         -o-transform: translateX(0);
 }
-.home .imageHover{
+.home .imageHover img{
     pointer-events: none;
     background: var(--bg-color);
     opacity: 0.6;
+    display: none;
 }
 
 }
