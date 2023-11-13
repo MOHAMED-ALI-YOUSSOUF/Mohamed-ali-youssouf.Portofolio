@@ -296,34 +296,34 @@
         <span>Me! <span class="animate scroll" style="--i: 1"></span></span>
       </h2>
 
-      <form action="#">
+      <form action="#" id="contact-form">
         <div class="input-box">
           <div class="input-field">
-            <input type="text" placeholder="Full Name" required />
+            <input type="text" name="from_name" placeholder="Full Name" required />
             <span class="focus"></span>
             <span class="animate scroll" style="--i: 2"></span>
           </div>
           <div class="input-field">
-            <input type="email" placeholder="Email Address" required />
+            <input type="email" name="email" placeholder="Email Address" required />
             <span class="focus"></span>
             <span class="animate scroll" style="--i: 3"></span>
           </div>
         </div>
         <div class="input-box">
           <div class="input-field">
-            <input type="number" placeholder="Mobile Number" required />
+            <input type="number" name="number" placeholder="Mobile Number" required />
             <span class="focus"></span>
             <span class="animate scroll" style="--i: 4"></span>
           </div>
           <div class="input-field">
-            <input type="email" placeholder="Email Subject" required />
+            <input type="text" name="subject" placeholder="Subject" required />
             <span class="focus"></span>
             <span class="animate scroll" style="--i: 5"></span>
           </div>
         </div>
         <div class="textarea-field">
           <textarea
-            name=""
+            name="message"
             id=""
             cols="30"
             rows="10"
@@ -354,6 +354,9 @@
         <span class="animate scroll" style="--i: 3"></span>
       </div>
     </footer>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 
     <script src="script.js"></script>
   </body>

@@ -46,3 +46,19 @@ window.onscroll = () => {
 
 
 };
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+  // Initialize EmailJS with your user ID
+  emailjs.init('g3chyHIhdc9qZ1Ep5');
+
+  // Use EmailJS to send the form data as an email
+  emailjs.sendForm('service_f2fn8lv', 'template_musr47r', this)
+    .then(function(response) {
+      alert('Your message has been sent successfully!');
+      document.getElementById('contact-form').reset();
+    }, function(error) {
+      console.error('There was an error:', error);
+    });
+});
+
