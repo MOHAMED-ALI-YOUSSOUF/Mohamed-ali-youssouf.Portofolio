@@ -384,8 +384,9 @@ color: var(--main-color);
 }
 .about-content p{
     position: relative;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     margin: 2rem 0 3rem;
+
 }
 
 .btn-box.btns{
@@ -601,10 +602,10 @@ color: var(--main-color);
     width: 80%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width: 60%;
+    width: 70%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
-    width: 50%;
+    width: 70%;
 }
 /* profesional skiils */
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
