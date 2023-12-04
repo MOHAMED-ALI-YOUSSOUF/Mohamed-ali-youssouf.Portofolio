@@ -85,6 +85,33 @@ section{
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
+img.maki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+img.maki:hover{
+    transform: scale(1.1) rotate(-4deg);
+    -webkit-transform: scale();
+    -moz-transform: scale();
+    -ms-transform: scale();
+    -o-transform: scale();
+}
+@media (min-width:767px) {
+    img.maki{
+        display: none;
+    }
+    
+}
 .home{
     display: flex;
     align-items: center;
@@ -418,6 +445,13 @@ color: var(--main-color);
 .education-row .education-column {
     flex: 1 1 40rem;
 
+}
+@media (max-width:992px) {
+    .education .education-row{
+        flex-wrap: wrap;
+        gap: 0;
+        }
+    
 }
 .education-column .title{
     position: relative;
