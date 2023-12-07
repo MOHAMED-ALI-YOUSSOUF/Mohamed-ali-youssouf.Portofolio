@@ -654,12 +654,63 @@ color: var(--main-color);
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
     width: 60%;
 }
+/* portofolio section*/
+
+.portofolio {
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+.portofolio a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.portofolio h1 {
+    position: relative;
+    font-size: 35px;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.portofolio-items{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.portofolio-item{
+  width: 250px;
+  text-align: center;
+ 
+}
+.portofolio-item h3{
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+}
+.portofolio-item p{
+    font-size: 15px;
+    max-width: 90%;
+    margin:auto;
+    font-style: italic;
+    opacity: 0.7;
+    }
 
 /* contact Section */
 
 .contact{
     min-height: auto;
     padding-bottom: 7rem;
+    background: var(--second-bg-color); 
 }
 .contact h2{
     display: inline-block;
